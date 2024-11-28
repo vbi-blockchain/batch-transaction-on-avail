@@ -22,11 +22,13 @@
     "query-rows": "bun run src/rpc-kate-query-rows.ts",
     "submit-proposal": "bun run src/submit-proposal.ts",
     "validium": "bun run src/validium.ts",
-    "batch-tx": "bun run src/tx-batch-example.ts"
+    "batch-tx": "bun run src/tx-batch-example.ts",
+    "check-tx": "bun run src/tx-status-checker.ts"
   },
   "dependencies": {
     "avail-js-sdk": "^0.3.0",
-    "ethers": "^6.13.2"
+    "ethers": "^6.13.2",
+    "polkadot": "^1.0.0"
   },
   "devDependencies": {
     "rimraf": "^5.0.5"
