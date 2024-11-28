@@ -1,7 +1,7 @@
 import { initialize } from "avail-js-sdk"
 import type { EventRecord } from '@polkadot/types/interfaces'
 import type { Vec } from '@polkadot/types'
-import config from "../../config"
+import config from "../config"
 
 async function checkTxStatus(blockHash: string) {
   try {

@@ -1,7 +1,7 @@
 import { initialize, getKeyringFromSeed, getDecimals, formatNumberToBalance } from "avail-js-sdk"
 import { ISubmittableResult } from "@polkadot/types/types/extrinsic"
 import type { AccountInfo } from '@polkadot/types/interfaces'
-import config from "../../config"
+import config from "../config"
 
 const main = async () => {
   try {
